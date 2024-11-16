@@ -8,9 +8,9 @@ interface NextStep {
 }
 
 const nextSteps: NextStep[] = [
-  { icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/d804439fcf4398c92442077358e9f944611d3d156cc209e23da6ccc3002a2c53?placeholderIfAbsent=true&apiKey=1e44f7d110ec4a3ab4b774737bf01988", text: "We'll prepare a proposal" },
-  { icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/83cb9b32e86373c737913d57cf6d3038a1f0c9e9f8e73e3b5ab026cc63526544?placeholderIfAbsent=true&apiKey=1e44f7d110ec4a3ab4b774737bf01988", text: "Together we discuss it" },
-  { icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/92a65266fbc482464eae54814b48f63c64a78d89e5723c7edafc72d92c6a120b?placeholderIfAbsent=true&apiKey=1e44f7d110ec4a3ab4b774737bf01988", text: "Let's start a policy" },
+  { icon: "/icon.png?height=60&width=120", text: "We'll prepare a proposal" },
+  { icon: "/icon.png?height=60&width=120", text: "Together we discuss it" },
+  { icon: "/icon.png?height=60&width=120", text: "Let's start a policy" },
 ];
 
 function SatisfactionGuarantee() {
