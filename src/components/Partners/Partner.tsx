@@ -2,18 +2,18 @@ import Image from "next/image"
 
 export default function Component() {
   const partners = [
-    { name: "Partner 1", logo: "/placeholder.svg?height=60&width=120" },
-    { name: "Partner 2", logo: "/placeholder.svg?height=60&width=120" },
-    { name: "Partner 3", logo: "/placeholder.svg?height=60&width=120" },
-    { name: "Partner 4", logo: "/placeholder.svg?height=60&width=120" },
-    { name: "Partner 5", logo: "/placeholder.svg?height=60&width=120" },
-    { name: "Partner 6", logo: "/placeholder.svg?height=60&width=120" },
-    { name: "Partner 7", logo: "/placeholder.svg?height=60&width=120" },
-    { name: "Partner 8", logo: "/placeholder.svg?height=60&width=120" },
-    { name: "Partner 9", logo: "/placeholder.svg?height=60&width=120" },
-    { name: "Partner 10", logo: "/placeholder.svg?height=60&width=120" },
-    { name: "Partner 11", logo: "/placeholder.svg?height=60&width=120" },
-    { name: "Partner 12", logo: "/placeholder.svg?height=60&width=120" },
+    { name: "Partner 1", logo: "/partner/cisco.png?height=60&width=120" },
+    { name: "Partner 2", logo: "/partner/dell.png?height=60&width=120" },
+    { name: "Partner 3", logo: "/partner/hewlett.png?height=60&width=120" },
+    { name: "Partner 4", logo: "/partner/hp.png?height=60&width=120" },
+    { name: "Partner 5", logo: "/partner/hpe.png?height=60&width=120" },
+    { name: "Partner 6", logo: "/partner/juniper.png?height=60&width=120" },
+    { name: "Partner 7", logo: "/partner/lenovo.png?height=60&width=120" },
+    { name: "Partner 8", logo: "/partner/microsoft.png?height=60&width=120" },
+    { name: "Partner 9", logo: "/partner/nvidia.png?height=60&width=120" },
+    { name: "Partner 10", logo: "/partner/reaqta.png?height=60&width=120" },
+    { name: "Partner 11", logo: "/partner/ruckus.png?height=60&width=120" },
+    { name: "Partner 12", logo: "/partner/veeam.png?height=60&width=120" },
   ]
 
   return (
