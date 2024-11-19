@@ -73,17 +73,17 @@ export const AboutUs = () => {
 
           {/* Image Section */}
           <div className="flex flex-col ml-4 w-[44%] max-md:w-full">
-            <Image
-              loading="lazy"
-              src="/about/about1.png"
-              alt="IT Services illustration"
-              className="object-contain mx-4 w-full aspect-[1.27] max-md:mt-10 max-md:max-w-full"
-              height={350}
-              width={300}
-              placeholder="blur"
-              blurDataURL="/about/blur-placeholder.png"
-            />
-          </div>
+  <Image
+    loading="lazy"
+    src="/about/about1.png"
+    alt="IT Services illustration"
+    className="object-contain w-full max-w-full aspect-auto max-md:mt-10"
+    height={350}
+    width={300}
+    placeholder="blur"
+    blurDataURL="/about/blur-placeholder.png"
+  />
+</div>
         </div>
       </div>
     </main>

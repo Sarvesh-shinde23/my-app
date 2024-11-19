@@ -9,14 +9,13 @@ interface ActionLogo {
   width?: number; // Optional width
 }
 
-
 interface ActionLogosProps {
   logos: ActionLogo[]; // List of logos
 }
 
 export function ActionLogos({ logos }: ActionLogosProps) {
   return (
-    <div className="flex flex-wrap gap-3.5 items-start ml-20 max-w-full bg-blend-normal min-h-[46px] w-[576px]">
+    <div className="flex flex-wrap items-start justify-center sm:justify-start gap-4 sm:ml-20 max-w-full bg-blend-normal min-h-[46px] w-full">
       {logos.map((logo, index) => (
         <Image
           key={index}
@@ -30,4 +29,3 @@ export function ActionLogos({ logos }: ActionLogosProps) {
     </div>
   );
 }
-
