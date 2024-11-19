@@ -5,7 +5,7 @@ function QuoteSection() {
     <div
       className="relative min-h-screen bg-cover bg-center"
       style={{
-        backgroundImage: "url('/Background.png')", // Ensure the correct path
+        backgroundImage: "url('/background.png')", // Ensure the correct path
       }}
     >
       <div className="flex items-center justify-center min-h-screen bg-black bg-opacity-50">
