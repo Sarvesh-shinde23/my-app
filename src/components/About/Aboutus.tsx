@@ -41,68 +41,7 @@ export const AboutUs = () => {
     "Optical Time Domain Reflectometry (OTDR)",
   ];
 
-  const features = [
-    {
-      number: "01",
-      title: "Client-Centered Approach",
-      description:
-        "We focus on understanding your unique needs and delivering customized IT solutions that align with your business goals.",
-      features: [
-        "Creative Design",
-        "Retina Ready",
-        "Modern Design",
-        "Digital Marketing & Branding",
-      ],
-      imageSrc: "/about/about2.png",
-      height: 250,
-      width: 400,
-      imageAlt: "Client-centered approach illustration",
-    },
-    {
-      number: "02",
-      title: "Full IT Lifecycle Services",
-      description:
-        "From planning to implementation and beyond, we support your IT journey with a full suite of lifecycle services.",
-      features: [
-        "Comprehensive Solutions",
-        "Proactive Monitoring",
-        "Efficient Implementation",
-        "End-to-End Support",
-      ],
-      imageSrc: "/about/about3.png",
-      height: 200,
-      width: 400,
-      imageAlt: "IT Lifecycle Services illustration",
-    },
-    {
-      number: "03",
-      title: "Tailored Solutions",
-      description:
-        "We design scalable and flexible IT solutions to adapt to your evolving business needs.",
-      features: [],
-      hasQuote: true,
-      quoteText:
-        "Tailoring solutions to your specific challenges is our commitment to your success.",
-      imageSrc: "/about/about4.png",
-      height: 200,
-      width: 300,
-      imageAlt: "Tailored Solutions illustration",
-    },
-    {
-      number: "04",
-      title: "Expertise and Innovation",
-      description:
-        "Leverage our expertise and innovative strategies to stay ahead in the ever-changing tech landscape.",
-      features: [],
-      hasQuote: true,
-      quoteText:
-        "Innovation drives us to create impactful IT solutions for a brighter future.",
-      imageSrc: "/about/zig5.png",
-      height: 200,
-      width: 300,
-      imageAlt: "Expertise and Innovation illustration",
-    },
-  ];
+  
 
   return (
     <main className="flex flex-col bg-blend-normal px-5">
@@ -157,17 +96,7 @@ export const AboutUs = () => {
 
 
 
-      <section className="w-full flex flex-col gap-10 max-md:gap-5 mt-20">
-        {features.length > 0 ? (
-          features.map((feature, index) => (
-            <ZigzagFeature key={index} index={index} {...feature} />
-          ))
-        ) : (
-          <p className="text-center text-slate-500">
-            No features available at the moment.
-          </p>
-        )}
-      </section>
+     
     </main>
   );
 };

@@ -2,7 +2,7 @@
 import React from "react";
 import { BannerImage } from "./BannerImage";
 import { BannerText } from "./BannerText";
-import { ActionButtons } from "./ActionButtons";
+import { ActionLogos } from "./ActionButtons";
 import Image from "next/image";
 
 const MainBanner = () => {
@@ -20,14 +20,10 @@ const MainBanner = () => {
     "and expertise ensure your systems run smoothly and effectively, every time.",
   ];
 
-  const actionButtons = [
-    {
-      text: "Get Started",
-      className:
-        "bg-indigo-500 border-indigo-500 text-white w-[138px] max-md:px-5",
-    },
+  const actionLogos = [
+    { src: "/OpenRainbow.png", alt: "Logo 1", height: 100, width: 280 },
   ];
-
+  
   return (
     <main className="flex flex-col bg-blue-50 bg-blend-normal">
       <section className="z-10 w-full max-md:max-w-full">
@@ -72,7 +68,7 @@ const MainBanner = () => {
         <div className="flex gap-5 max-md:flex-col">
           <div className="flex flex-col w-4/5 max-md:ml-0 max-md:w-full">
             <div className="flex z-10 flex-col mt-1.5 mr-0 w-full text-base leading-loose text-white max-md:max-w-full">
-              <ActionButtons buttons={actionButtons} />
+            <ActionLogos logos={actionLogos} />
               <BannerImage
                 src="/hero/hero3.png"
                 alt="Pattern Design"

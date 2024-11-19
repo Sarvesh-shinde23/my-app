@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="">
-        <NavigationBar/>
+  
         <div className="min-h-dvh ">{children}</div>
         <div className="w-full  ">
      

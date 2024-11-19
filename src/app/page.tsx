@@ -13,8 +13,7 @@ export default function Home() {
   
       <AboutUs />
    
-      <ServicesSection />
-      <Partner />
+     
       <QuoteSection />
       
     </>
