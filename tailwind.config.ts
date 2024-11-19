@@ -57,7 +57,13 @@ const config: Config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate"), require("daisyui")],
+  plugins: [
+    require("tailwindcss-animate"),
+    require("daisyui"),
+  ],
+  daisyui: {
+    themes: ["winter"], // Set DaisyUI theme to winter
+  },
 };
 
 export default config;
