@@ -8,7 +8,7 @@ interface BannerTextProps {
 export function BannerText({ title, description }: BannerTextProps) {
   return (
     <section className="flex flex-col items-start w-[70%] max-md:ml-0 max-md:w-full">
-      <h1 className="mt-44 text-5xl font-medium leading-[54px] text-neutral-800 max-md:mt-10 max-md:max-w-full">
+      <h1 className="mt-44 text-3xl font-medium leading-[54px] text-neutral-800 max-md:mt-10 max-md:max-w-full">
         {title.map((line, index) => (
           <React.Fragment key={index}>
             {line}

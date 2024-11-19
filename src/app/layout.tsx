@@ -25,9 +25,7 @@ export default function RootLayout({
       <body className="">
   
         <div className="min-h-dvh ">{children}</div>
-        <div className="w-full  ">
-     
-        </div>
+    
         <Footer/>
       </body>
     </html>
