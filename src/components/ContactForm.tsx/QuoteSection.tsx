@@ -1,10 +1,13 @@
-import React from 'react';
-import Image from 'next/image'; // Importing the Next.js Image component
-import FreeQuoteForm from './FreeQuoteForm';
+import FreeQuoteForm from "./FreeQuoteForm";
 
 function QuoteSection() {
   return (
-    <div className="relative min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('/Background.png')" }}>
+    <div
+      className="relative min-h-screen bg-cover bg-center"
+      style={{
+        backgroundImage: "url('/Background.png')", // Ensure the correct path
+      }}
+    >
       <div className="flex items-center justify-center min-h-screen bg-black bg-opacity-50">
         <section className="overflow-hidden py-16">
           <div className="flex items-center justify-center">
@@ -15,5 +18,3 @@ function QuoteSection() {
     </div>
   );
 }
-
-export default QuoteSection;
