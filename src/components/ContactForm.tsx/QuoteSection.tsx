@@ -18,3 +18,4 @@ function QuoteSection() {
     </div>
   );
 }
+export default QuoteSection;
